@@ -30,3 +30,23 @@ This time I happen to buy from Mouser which is why include those partnumber, but
 ![Connecting to the GBS8200](http://i.imgur.com/AG3x1OQ.jpg)
 
 ![Output](http://i.imgur.com/q9WrcyZ.jpg)
+
+```
+10 PRINT CHR$(147);
+20 FOR I=1 TO 16
+30 READ C$
+40 COLOR 5,I
+50 PRINT CHR$(18)+"   C O L O R   "+CHR$(146)+" COLOR ";
+60 COLOR 5,4
+70 PRINT C$
+80 NEXT
+1000 DATA BLACK,WHITE,DARK RED,LIGHT CYAN
+1010 DATA LIGHT PURPLE,DARK GREEN,DARK BLUE,LIGHT YELLOW
+1020 DATA DARK PURPLE,DARK YELLOW,LIGHT RED,DARK CYAN
+1030 DATA MEDIUM GRAY,LIGHT GREEN,LIGHT BLUE,LIGHT GRAY
+```
+
+
+
+
+The code for generating the above display was taken from a post by [Frank Buss](http://www.frank-buss.de/c128/vdc/index.html).
