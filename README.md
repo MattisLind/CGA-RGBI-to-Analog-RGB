@@ -21,7 +21,7 @@ This time I happen to buy from Mouser which is why include those partnumber, but
 |C1 C2 C3| 0.1uF 0805|[81-GRM40Y104Z25D](http://www.mouser.se/search/ProductDetail.aspx?R=0virtualkey0virtualkeyGRM216F51E104ZA01D)|
 |R3 R5 R6| 470ohm 0805 | [603-RC0805JR-07470RL](http://www.mouser.se/Search/ProductDetail.aspx?R=RC0805JR-07470RLvirtualkey57620000virtualkey603-RC0805JR-07470RL)|
 |R2 R7 R4| 1.5kohm 0805| [667-ERJ-6GEYJ152V](http://www.mouser.se/Search/ProductDetail.aspx?R=ERJ-6GEYJ152Vvirtualkey66720000virtualkey667-ERJ-6GEYJ152V)|
-| R8     | 1kohm 0805|[No:	603-RC0805JR-071KL](http://www.mouser.se/Search/ProductDetail.aspx?R=RC0805JR-071KLvirtualkey57620000virtualkey603-RC0805JR-071KL)|
+| R8     | 1kohm 0805|[603-RC0805JR-071KL](http://www.mouser.se/Search/ProductDetail.aspx?R=RC0805JR-071KLvirtualkey57620000virtualkey603-RC0805JR-071KL)|
 | R1     | 2kohm 0805| [603-RC0805JR-072KL](http://www.mouser.se/Search/ProductDetail.aspx?R=RC0805JR-072KLvirtualkey57620000virtualkey603-RC0805JR-072KL)|
 
 
