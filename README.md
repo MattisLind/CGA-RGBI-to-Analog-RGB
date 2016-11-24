@@ -4,7 +4,7 @@ This project is a blatant steal from [Chris Osborn](http://www.insentricity.com/
 The ideas is to make it possible to connect a TTL RGBI signal output to a GBS 8200 scan converter and thereby connect old C128 or IBM PC with CGA card to a modern flat screen VGA monitor. The GBS 8200 or similar can be bought cheap from aliexpress or dealextreme or similar sources.
 
 Since I really liked a proper circuit board and and as cheap as possible I had to keep the board real-estate as low as possible. Thereby using SMD mount instead of through-hole.
-To make the layout a bit simpler some modification has been done. The A0 and A1 inputs for the 74HC138 are grounded rather than pulled low which means that output O4 has to be used instead of O7.
+To make the layout a bit simpler some modification has been done. The A0 and A1 inputs for the 74HC138 are grounded rather than pulled high which means that output O4 has to be used instead of O7.
 To simplify the boardlayout the 74HCT244 is used slightly different. 
 
 I put the [resulting dsign at OSHpark](https://oshpark.com/shared_projects/xC5EGJzc) in case someone wants to order it from them directly.
@@ -42,7 +42,7 @@ This time I happen to buy from Mouser which is why include those partnumber, but
 80 NEXT
 1000 DATA BLACK,WHITE,DARK RED,LIGHT CYAN
 1010 DATA LIGHT PURPLE,DARK GREEN,DARK BLUE,LIGHT YELLOW
-1020 DATA DARK PURPLE,DARK YELLOW,LIGHT RED,DARK CYAN
+1020 DATA DARK PURPLE,BROWN,LIGHT RED,DARK CYAN
 1030 DATA MEDIUM GRAY,LIGHT GREEN,LIGHT BLUE,LIGHT GRAY
 ```
 
