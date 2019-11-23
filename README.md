@@ -1,17 +1,17 @@
 # CGA-RGBI-to-Analog-RGB
 
 This project is a blatant steal from [Chris Osborn](http://www.insentricity.com/a.cl/219/cgargbi-to-analog-for-the-commodore-128) who has taken the circuit from someone else.
-The ideas is to make it possible to connect a TTL RGBI signal output to a GBS 8200 scan converter and thereby connect old C128 or IBM PC with CGA card to a modern flat screen VGA monitor. The GBS 8200 or similar can be bought cheap from aliexpress or dealextreme or similar sources.
+The idea is to make it possible to connect a TTL RGBI signal output to a GBS 8200 scan converter and thereby connect old C128 or IBM PC with CGA card to a modern flat screen VGA monitor. The GBS 8200 or similar can be bought cheap from aliexpress or dealextreme or similar sources.
 
-Since I really liked a proper circuit board and and as cheap as possible I had to keep the board real-estate as low as possible. Thereby using SMD mount instead of through-hole.
+Since I really wanted a proper circuit board, and for it to be as cheap as possible, I had to keep the board real-estate as low as possible. Thereby using SMD mount instead of through-hole.
 To make the layout a bit simpler some modification has been done. The A0 and A1 inputs for the 74HC138 are grounded rather than pulled high which means that output O4 has to be used instead of O7.
 To simplify the boardlayout the 74HCT244 is used slightly different. 
 
-I put the [resulting dsign at OSHpark](https://oshpark.com/shared_projects/xC5EGJzc) in case someone wants to order it from them directly.
+I put the [resulting design at OSHpark](https://oshpark.com/shared_projects/xC5EGJzc) in case someone wants to order it from them directly.
 
 ![Top side](http://i.imgur.com/mRA4rBz.png)
 
-This time I happen to buy from Mouser which is why include those partnumber, but anyone can of course choose their favourite supplier.
+This time I happened to buy from Mouser which is why I included those part numbers, but you can of course choose your favourite supplier.
 
 |Designator|Component|Mouser partno|
 |----------|---------|-------------|
